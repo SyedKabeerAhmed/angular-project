@@ -12,21 +12,29 @@ button{
   padding: 15px 35px;
   border-radius: 30px;
   height: 60px;
+  color: #ffffff;
   border: 2px solid   #3361FF;
+  font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 900;
 }
 // colored
 
 .btn-primary{
   background-color: #3361FF;
   border: 2px solid   #3361FF;
+
 }
 .btn-secondary{
   background-color: #ffffff;
   border: 2px solid   #ffffff;
+  color: #6B7A99;
 }
 .btn-dark{
   background-color: #202B40;
   border: 2px solid   #202B40;
+  color: #7D8FB3;
 }
 // radius
 
@@ -42,18 +50,35 @@ button{
 .btn-lg{
   height: 60px;
   padding: 15px 35px;
+  font-size: 14px;
 }
 .btn-md{
   height: 50px;
   padding: 15px 30px;
+  font-size: 12px;
 }
 .btn-sm{
   height: 40px;
   padding: 10px 20px;
+  font-size: 12px;
 }
 .btn-xs{
   height: 30px;
   padding: 5px 15px;
+  font-size: 10px;
+}
+.btn-after{
+  padding: 15px 25px;
+  display: flex;
+}
+
+.btn-after span{
+  display: block;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  width: 8px;
+  height: 8px;
+  margin-left: 10px;
 }
 
 
