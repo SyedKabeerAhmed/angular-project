@@ -13,6 +13,7 @@ button{
   border-radius: 30px;
   height: 60px;
   color: #ffffff;
+  cursor: pointer;
   border: 2px solid   #3361FF;
   font-family: 'Roboto', sans-serif;
 font-size: 14px;
@@ -67,18 +68,59 @@ font-weight: 900;
   padding: 5px 15px;
   font-size: 10px;
 }
-.btn-after{
-  padding: 15px 25px;
-  display: flex;
+
+
+.dropdown {
+   padding: 0px;
+  position: relative;
+  display: inline-block;
 }
 
-.btn-after span{
+.dropdown-button {
+ 
+  position: relative;
+}
+
+/* Add this CSS to your stylesheet */
+
+.arrow {
+  margin-left: 5px; /* Add some spacing between text and arrow */
+  font-size: 16px; /* Set the font size to adjust the arrow size */
+  display: inline-block;
+  transition: transform 0.3s ease-in-out; /* Add a transition for smooth rotation */
+}
+
+.arrow.up {
+  transform: rotate(180deg); /* Rotate the arrow 180 degrees for the "up" state */
+}
+
+.dropdown-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 5px;
+  text-align: center;
+  text-decoration: none;
+  width: 90%;
+  
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  display: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a box shadow for a dropdown effect */
+  z-index: 1; /* Ensure it appears above other content */
+}
+
+.dropdown-menu.show {
   display: block;
-  border-radius: 50%;
-  border: 3px solid #fff;
-  width: 8px;
-  height: 8px;
-  margin-left: 10px;
 }
 
+.dropdown-menu li {
+  padding: 8px 12px;
+}
 
+.dropdown-menu li:hover {
+  background-color: #f5f5f5; /* Highlight on hover */
+}

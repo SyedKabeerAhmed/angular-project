@@ -1,3 +1,33 @@
-<p>login-page works!</p>
-<app-input></app-input>
-<app-button></app-button>
+ 
+<div class="signUp">
+    <div class="content">
+        <h1 class="heading1">Sign in to</h1>
+        <p class="text1">Lorem Ipsum is simply</p>
+        <p class="text2">If you don’t have an account register</p>
+        <p class="text2">You can <a routerLink="/signup" class="loginLink">Register here !</a></p>
+    </div>
+    <div class="formContainer">
+        <h2 class="heading2">Sign in</h2>
+        <form (ngSubmit)="onSubmit()" #loginForm="ngForm" class="form">
+             
+                <input type="email" placeholder="Enter Email or User Name" id="email" name="email" class="input" [(ngModel)]="email" required>
+           
+                <div class="Password">
+                <input type="password" id="password" placeholder="Password" name="password" class="input-password" [(ngModel)]="password" required>
+                <img src="./image/invisible 1.svg" alt="" class="inputEye">
+                </div>
+                <a class="forget">Forget Password?</a>
+             
+            
+            <button type="submit" class="btn-login">Login</button>
+
+            <a href="" class="link">or continue with</a>
+            <div class="socialLinks">
+                <img src="../../../../assets/images/Facebook.png" alt="">
+                <img src="../../../../assets/images/apple.png" alt="">
+                <img src="../../../../assets/images/google.png" alt="">
+            </div>
+        </form>
+    </div>
+</div>
+ 

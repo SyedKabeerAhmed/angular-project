@@ -24,10 +24,19 @@
 <button class="btn-xs">Button</button>
 </div>
 
-<!-- button with after  -->
-<button class="btn-after">Button <span></span></button>
+<div class="dropdown">
+  <button class="dropdown-button" (click)="toggleDropdown()">
+    Dropdown
+    <span class="arrow" [ngClass]="{ 'up': isDropdownOpen, 'down': !isDropdownOpen }">&#9660;</span>
+  </button>
+  <ul class="dropdown-menu" [ngClass]="{ 'show': isDropdownOpen }">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+</div>
 
-<!-- button with before  -->
 
 
-<!-- button with after/before  -->
+
+

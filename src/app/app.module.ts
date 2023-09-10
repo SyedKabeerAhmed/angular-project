@@ -7,17 +7,27 @@ import { ButtonComponent } from './components-library/ui/button/button.component
 import { InputComponent } from './components-library/ui/input/input.component';
 import { LoginPageComponent } from './components-library/pages/login-page/login-page.component';
 import { SignupPageComponent } from './components-library/pages/signup-page/signup-page.component';
+import { GroupButtonComponent } from './components-library/ui/group-button/group-button.component';
+import { FormsModule } from '@angular/forms';
+import { SwitcherComponent } from './components-library/ui/switcher/switcher.component';
+import { DashboardComponent } from './components-library/pages/dashboard/dashboard.component';
+import { TextAreaComponent } from './components-library/ui/text-area/text-area.component';
 @NgModule({
   declarations: [
     AppComponent,
     ButtonComponent,
     InputComponent,
     LoginPageComponent,
-    SignupPageComponent
+    SignupPageComponent,
+    GroupButtonComponent,
+    SwitcherComponent,
+    DashboardComponent,
+    TextAreaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

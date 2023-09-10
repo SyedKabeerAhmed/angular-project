@@ -1,1 +1,39 @@
-<p>signup-page works!</p>
+ 
+<div class="signUp">
+    <div class="content">
+        <h1 class="heading1">Sign up to</h1>
+        <p class="text1">Lorem Ipsum is simply</p>
+        <p class="text2">If you already have an account</p>
+        <p class="text2">You can <a routerLink="/login" class="loginLink">Login here !</a></p>
+    </div>
+    <div class="formContainer">
+        <h2 class="heading2">Sign in</h2>
+        <form (ngSubmit)="onSubmit()" #loginForm="ngForm" class="form">
+             
+                <input type="email" placeholder="Enter Email" id="email" name="email" class="input" [(ngModel)]="email" required>
+                <input type="text" placeholder="User Name" id="userName" name="userName" class="input" [(ngModel)]="userName" required>
+                <input type="text" placeholder="Contact Number" id="number" name="number" class="input" [(ngModel)]="number" required>
+
+                <div class="Password">
+                <input type="password" id="password" placeholder="Password" name="password" class="input-password" [(ngModel)]="password" required>
+                <img src="./image/invisible 1.svg" alt="" class="inputEye">
+                </div>
+                <div class="Password">
+                    <input type="password" id="confirmPassword" placeholder="confirmPassword" name="confirmPassword" class="cnfrm-pass input-password" [(ngModel)]="confirmPassword" required>
+                    <img src="./image/invisible 1.svg" alt="" class="inputEye">
+                    </div>
+                 
+             
+            
+            <button type="submit" class="btn-login">Login</button>
+
+            <a   class="link">or continue with</a>
+            <div class="socialLinks">
+                <img src="../../../../assets/images/Facebook.png" alt="">
+                <img src="../../../../assets/images/apple.png" alt="">
+                <img src="../../../../assets/images/google.png" alt="">
+            </div>
+        </form>
+    </div>
+</div>
+ 

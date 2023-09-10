@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    gap: 1rem;
+  }
+  .text-area {
+    padding: 2rem;
+    width: 150px;
+    height: 190px;
+    font-size: 14px;
+    border: none;
+    position: relative;
+  }
+  .text-area .img {
+    padding: 1rem;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .text-area-white {
+    background-color: white;
+  }
+  .radius-lg {
+    border-radius: 12px;
+  }
+  .radius-md {
+    border-radius: 5px;
+  }
+  .label {
+    color: white;
+    font-size: 14px;
+  }
+  
