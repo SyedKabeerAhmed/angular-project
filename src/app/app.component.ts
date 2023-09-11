@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'project-alphsa';
+  title = 'project-Eazio';
+
+
+  constructor(private router: Router) {}
+
+  isLoginPage(): boolean {
+    return this.router.url === '/login';
+  }
+
+  isSignupPage(): boolean {
+    return this.router.url === '/signup';
+  }
+
+  isDashboardPage(): boolean {
+    return this.router.url === '/dashboard';
+  }
+
 }

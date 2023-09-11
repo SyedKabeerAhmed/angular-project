@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(216, 216, 216);
+    background-color: #EDEFF2;
     padding: 1rem 3rem;
 
 }
@@ -10,6 +10,7 @@
 .d-links ul{
     list-style: none;
     display: flex;
+    align-items: center;
 }
 a{
     text-decoration: none;
@@ -28,18 +29,20 @@ a{
 }
 .icon{
     position: absolute;
-   
+
     background-color: transparent;
 }
 .search{
- 
-    width: 14px;
-    
+
+  width: 30px;
+  height: 30px;
+
 }
 .drop{
- 
-    width: 6px;
-    
+
+  width: 30px;
+  height: 30px;
+
 }
 .search-bar{
     position: relative;
@@ -57,12 +60,12 @@ a{
 }
 
 .position-1{
-    left: 20px;
-    top: 9px;
+  left: 12px;
+  top: 2px;
 }
 .position-2{
-    right: 20px;
-    top: 7px;
+  right: 20px;
+  top: 2px;
 }
 .right-alignment{
     gap: 1rem;

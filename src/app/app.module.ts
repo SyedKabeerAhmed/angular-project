@@ -15,6 +15,10 @@ import { TextAreaComponent } from './components-library/ui/text-area/text-area.c
 import { HeaderComponent } from './components-library/shared/header/header.component';
 import { HeaderDashboardComponent } from './components-library/shared/header-dashboard/header-dashboard.component';
 import { AddTaskComponent } from './components-library/shared/add-task/add-task.component';
+import { AttatchmentComponent } from './components-library/shared/attatchment/attatchment.component';
+import { CommentsComponent } from './components-library/shared/comments/comments.component';
+import { ProfileComponent } from './components-library/shared/profile/profile.component';
+import { SiderComponent } from './components-library/shared/sider/sider.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +32,11 @@ import { AddTaskComponent } from './components-library/shared/add-task/add-task.
     TextAreaComponent,
     HeaderComponent,
     HeaderDashboardComponent,
-    AddTaskComponent
+    AddTaskComponent,
+    AttatchmentComponent,
+    CommentsComponent,
+    ProfileComponent,
+    SiderComponent
   ],
   imports: [
     BrowserModule,

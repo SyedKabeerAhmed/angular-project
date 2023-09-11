@@ -1,0 +1,44 @@
+<div class="sidebar">
+  <div class="flex gap">
+      <div><img src="../../../../assets/images/profile-icon.png" alt=""></div>
+      <div><img src="../../../../assets/images/more.png" alt=""></div>
+  </div>
+  <div class="User-profile-img flex flex-col">
+      <img src="../../../../assets/images/user.png" alt="">
+      <p class="heading">Hello Alfred Bryant</p>
+      <p ><a class="para" href="adrain.nader@yahoo.com">adrain.nader@yahoo.com</a></p>
+  </div>
+</div>
+
+<div class="menu">
+  <div class="border-box flex flex-col relative" *ngFor="let m of menu">
+      <div  class="img-alignment">
+
+        <img [src]="m.img1" alt="" class="img-2 absolute">
+        <img [src]="m.img2" alt="" class="img-1 absolute">
+      </div>
+          <p class="text-sidebar">{{m.label}}</p>
+  </div>
+
+
+</div>
+
+<div class="sidebar-bottom">
+  <div class="flex rounded-border">
+    <div class="social-icons m-l-r">
+      <img  src="../../../../assets/images/local_phone.png" alt="" />
+    </div>
+    <div class="social-icons m-l-r">
+      <img  src="../../../../assets/images/mail.png" alt="" />
+    </div>
+    <div class="social-icons m-l-r">
+      <img  src="../../../../assets/images/chrome_reader_mode.png" alt="" />
+    </div>
+    <div class="social-icons m-l-r">
+      <img  src="../../../../assets/images/ic_telegram.png" alt="" />
+    </div>
+    <div class="social-icons m-l-r">
+      <img  src="../../../../assets/images/ic_whatsapp.png" alt="" />
+    </div>
+  </div>
+</div>

@@ -34,8 +34,7 @@
             background-color: #fff;
             display: flex;
             margin-bottom: 20px;
-            
-            align-items: center;
+             align-items: center;
             .dot{
                 width: 40px;
                 padding-right: 10px;
@@ -44,12 +43,12 @@
                 justify-content: center;
                 align-items: center;
                 height: 30px;
-            } 
+            }
             .text{
                 padding: 10px;
                 width: 250px;
                 p{
-                    color:  #6B7A99;                    
+                    color:  #6B7A99;
                     font-size: 12px;
                     font-style: normal;
                     font-weight: 700;
@@ -58,8 +57,11 @@
             }
             .img-group{
                 display: flex;
+                align-items: center;
                 img{
                     padding: 0 5px;
+                    width: 30px;
+                    height: 25px;
                 }
                 button{
                     margin-left: 5px;
@@ -69,4 +71,3 @@
     }
 }
 
- 
