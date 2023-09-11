@@ -1,2 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import  './app/components-library/ui/button/button.component.scss', './app/components-library/ui/input/input.component.scss', './app/components-library/ui/switcher/switcher.component.scss', './app/components-library/ui/text-area/text-area.component.scss';
+// @import url('./app/components-library/ui/input/input.component.scss');
+// @import url('./app/components-library/ui/switcher/switcher.component.scss');
+// @import url('./app/components-library/ui/text-area/text-area.component.scss');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}

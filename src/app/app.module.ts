@@ -12,6 +12,9 @@ import { FormsModule } from '@angular/forms';
 import { SwitcherComponent } from './components-library/ui/switcher/switcher.component';
 import { DashboardComponent } from './components-library/pages/dashboard/dashboard.component';
 import { TextAreaComponent } from './components-library/ui/text-area/text-area.component';
+import { HeaderComponent } from './components-library/shared/header/header.component';
+import { HeaderDashboardComponent } from './components-library/shared/header-dashboard/header-dashboard.component';
+import { AddTaskComponent } from './components-library/shared/add-task/add-task.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +25,10 @@ import { TextAreaComponent } from './components-library/ui/text-area/text-area.c
     GroupButtonComponent,
     SwitcherComponent,
     DashboardComponent,
-    TextAreaComponent
+    TextAreaComponent,
+    HeaderComponent,
+    HeaderDashboardComponent,
+    AddTaskComponent
   ],
   imports: [
     BrowserModule,

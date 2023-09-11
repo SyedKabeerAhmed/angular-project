@@ -1,0 +1,76 @@
+.dashborad-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    padding: 1rem 3rem;
+
+}
+
+.d-links ul{
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.p{
+    color: #7D8FB3;
+}
+.link, .user-name{
+    font-size: 12px;
+    margin: 0 10px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    position: absolute;
+   
+    background-color: transparent;
+}
+.search{
+ 
+    width: 14px;
+    
+}
+.drop{
+ 
+    width: 6px;
+    
+}
+.search-bar{
+    position: relative;
+    width: 350px;
+}
+.search-box{
+    outline: none;
+    border: none;
+    font-size: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    color: #ADB8CC;
+    padding:10px 3rem;
+}
+
+.position-1{
+    left: 20px;
+    top: 9px;
+}
+.position-2{
+    right: 20px;
+    top: 7px;
+}
+.right-alignment{
+    gap: 1rem;
+}
+
+.profile-pic{
+    width: 17px;
+}
+.bell , .cut ,.toggle {
+    width: 45px;
+}
